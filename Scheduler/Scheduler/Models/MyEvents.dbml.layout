@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="MyEvents">
+  <DataContextMoniker Name="/MyEventsDataContext" />
+  <nestedChildShapes>
+    <classShape Id="29a61eaa-387a-422c-af84-8c807651bc5f" absoluteBounds="1.625, 0.875, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/MyEventsDataContext/aspnet_Users" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8bfc115c-e6eb-4f52-96d0-9dac5dcf15b2" absoluteBounds="1.6400000000000001, 1.335, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e5e153e7-3bd3-45cc-ba0d-46a037326d49" absoluteBounds="5.125, 2, 2, 1.9631982421875">
+      <DataClassMoniker Name="/MyEventsDataContext/Events" />
+      <nestedChildShapes>
+        <elementListCompartment Id="de1d6b0c-c20a-48d1-adf1-1f7375c4159f" absoluteBounds="5.14, 2.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8c51bc60-8a81-42dd-a4b2-7206bc978b43" absoluteBounds="1.875, 3.875, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/MyEventsDataContext/Rooms" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3e4e5464-ddd3-4319-8274-8c91185fe3a5" absoluteBounds="1.8900000000000001, 4.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.625 : 2.61140055338542); (5.125 : 2.61140055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/MyEventsDataContext/aspnet_Users/aspnet_Users_Events" />
+      <nodes>
+        <classShapeMoniker Id="29a61eaa-387a-422c-af84-8c807651bc5f" />
+        <classShapeMoniker Id="e5e153e7-3bd3-45cc-ba0d-46a037326d49" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
